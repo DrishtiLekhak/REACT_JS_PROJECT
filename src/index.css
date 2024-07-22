@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family:"Nunito Sans", sans-serif;
+}
+
+label{
+    @apply block font-semibold text-slate-800 text-xl
+}
+
+
+select{
+    @apply w-64 p-2 rounded-md border
+}
+
+
+input,textarea{
+    @apply border p-2 rounded-md w-full focus:border-teal-400 focus:outline-none
+}
+
